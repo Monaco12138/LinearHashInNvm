@@ -1,0 +1,830 @@
+//测试代码 search
+for(size_t i=0 ; i < (HASH_SIZE + 1) * TABLE_SIZE ; i++){
+     	size_t val;
+     	hash.search(num[i] , val);
+     	cout<<"******"<<endl;
+     	cout << "key: " << num[i] << "\nvalue: " << val << endl;
+     	if(num[i] != val){
+     		cout<<"error!"<<endl;
+     		break;
+     	}
+}
+
+
+******
+key: 479
+value: 479
+******
+key: 665
+value: 665
+******
+key: 154
+value: 154
+******
+key: 269
+value: 269
+******
+key: 501
+value: 501
+******
+key: 998
+value: 998
+******
+key: 992
+value: 992
+******
+key: 904
+value: 904
+******
+key: 763
+value: 763
+******
+key: 254
+value: 254
+******
+key: 591
+value: 591
+******
+key: 869
+value: 869
+******
+key: 843
+value: 843
+******
+key: 683
+value: 683
+******
+key: 708
+value: 708
+******
+key: 410
+value: 410
+******
+key: 88
+value: 88
+******
+key: 352
+value: 352
+******
+key: 566
+value: 566
+******
+key: 497
+value: 497
+******
+key: 252
+value: 252
+******
+key: 486
+value: 486
+******
+key: 565
+value: 565
+******
+key: 115
+value: 115
+******
+key: 585
+value: 585
+******
+key: 414
+value: 414
+******
+key: 864
+value: 864
+******
+key: 23
+value: 23
+******
+key: 389
+value: 389
+******
+key: 308
+value: 308
+******
+key: 546
+value: 546
+******
+key: 586
+value: 586
+******
+key: 973
+value: 973
+******
+key: 418
+value: 418
+******
+key: 573
+value: 573
+******
+key: 193
+value: 193
+******
+key: 416
+value: 416
+******
+key: 566
+value: 566
+******
+key: 815
+value: 815
+******
+key: 179
+value: 179
+******
+key: 538
+value: 538
+******
+key: 406
+value: 406
+******
+key: 766
+value: 766
+******
+key: 381
+value: 381
+******
+key: 807
+value: 807
+******
+key: 194
+value: 194
+******
+key: 510
+value: 510
+******
+key: 894
+value: 894
+******
+key: 264
+value: 264
+******
+key: 76
+value: 76
+******
+key: 111
+value: 111
+******
+key: 515
+value: 515
+******
+key: 281
+value: 281
+******
+key: 675
+value: 675
+******
+key: 630
+value: 630
+******
+key: 865
+value: 865
+******
+key: 807
+value: 807
+******
+key: 213
+value: 213
+******
+key: 887
+value: 887
+******
+key: 914
+value: 914
+******
+key: 520
+value: 520
+******
+key: 433
+value: 433
+******
+key: 501
+value: 501
+******
+key: 493
+value: 493
+******
+key: 570
+value: 570
+******
+key: 792
+value: 792
+******
+key: 404
+value: 404
+******
+key: 985
+value: 985
+******
+key: 77
+value: 77
+******
+key: 219
+value: 219
+******
+key: 883
+value: 883
+******
+key: 334
+value: 334
+******
+key: 343
+value: 343
+******
+key: 649
+value: 649
+******
+key: 714
+value: 714
+******
+key: 151
+value: 151
+******
+key: 561
+value: 561
+******
+key: 942
+value: 942
+******
+key: 763
+value: 763
+******
+key: 825
+value: 825
+******
+key: 737
+value: 737
+******
+key: 592
+value: 592
+******
+key: 340
+value: 340
+******
+key: 18
+value: 18
+******
+key: 267
+value: 267
+******
+key: 688
+value: 688
+******
+key: 601
+value: 601
+******
+key: 75
+value: 75
+******
+key: 900
+value: 900
+******
+key: 488
+value: 488
+******
+key: 988
+value: 988
+******
+key: 421
+value: 421
+******
+key: 639
+value: 639
+******
+key: 208
+value: 208
+******
+key: 632
+value: 632
+******
+key: 209
+value: 209
+******
+key: 719
+value: 719
+******
+key: 37
+value: 37
+******
+key: 913
+value: 913
+******
+key: 795
+value: 795
+******
+key: 973
+value: 973
+******
+key: 515
+value: 515
+******
+key: 129
+value: 129
+******
+key: 317
+value: 317
+******
+key: 882
+value: 882
+******
+key: 562
+value: 562
+******
+key: 186
+value: 186
+******
+key: 444
+value: 444
+******
+key: 223
+value: 223
+******
+key: 667
+value: 667
+******
+key: 269
+value: 269
+******
+key: 678
+value: 678
+******
+key: 260
+value: 260
+******
+key: 327
+value: 327
+******
+key: 414
+value: 414
+******
+key: 245
+value: 245
+******
+key: 16
+value: 16
+******
+key: 15
+value: 15
+******
+key: 38
+value: 38
+******
+key: 915
+value: 915
+******
+key: 221
+value: 221
+******
+key: 745
+value: 745
+******
+key: 55
+value: 55
+******
+key: 860
+value: 860
+******
+key: 952
+value: 952
+******
+key: 687
+value: 687
+******
+key: 787
+value: 787
+******
+key: 390
+value: 390
+******
+key: 442
+value: 442
+******
+key: 419
+value: 419
+******
+key: 904
+value: 904
+******
+key: 134
+value: 134
+******
+key: 933
+value: 933
+******
+key: 751
+value: 751
+******
+key: 169
+value: 169
+******
+key: 816
+value: 816
+******
+key: 32
+value: 32
+******
+key: 354
+value: 354
+******
+key: 978
+value: 978
+******
+key: 255
+value: 255
+******
+key: 740
+value: 740
+******
+key: 247
+value: 247
+******
+key: 651
+value: 651
+******
+key: 999
+value: 999
+******
+key: 292
+value: 292
+******
+key: 66
+value: 66
+******
+key: 244
+value: 244
+******
+key: 307
+value: 307
+******
+key: 80
+value: 80
+******
+key: 282
+value: 282
+******
+key: 941
+value: 941
+******
+key: 301
+value: 301
+******
+key: 745
+value: 745
+******
+key: 714
+value: 714
+******
+key: 879
+value: 879
+******
+key: 416
+value: 416
+******
+key: 120
+value: 120
+******
+key: 385
+value: 385
+******
+key: 806
+value: 806
+******
+key: 561
+value: 561
+******
+key: 804
+value: 804
+******
+key: 710
+value: 710
+******
+key: 414
+value: 414
+******
+key: 456
+value: 456
+******
+key: 461
+value: 461
+******
+key: 582
+value: 582
+******
+key: 272
+value: 272
+******
+key: 212
+value: 212
+******
+key: 936
+value: 936
+******
+key: 968
+value: 968
+******
+key: 466
+value: 466
+******
+key: 395
+value: 395
+******
+key: 933
+value: 933
+******
+key: 117
+value: 117
+******
+key: 394
+value: 394
+******
+key: 226
+value: 226
+******
+key: 900
+value: 900
+******
+key: 356
+value: 356
+******
+key: 532
+value: 532
+******
+key: 980
+value: 980
+******
+key: 356
+value: 356
+******
+key: 192
+value: 192
+******
+key: 999
+value: 999
+******
+key: 101
+value: 101
+******
+key: 906
+value: 906
+******
+key: 597
+value: 597
+******
+key: 517
+value: 517
+******
+key: 26
+value: 26
+******
+key: 981
+value: 981
+******
+key: 323
+value: 323
+******
+key: 306
+value: 306
+******
+key: 785
+value: 785
+******
+key: 751
+value: 751
+******
+key: 719
+value: 719
+******
+key: 960
+value: 960
+******
+key: 930
+value: 930
+******
+key: 301
+value: 301
+******
+key: 232
+value: 232
+******
+key: 142
+value: 142
+******
+key: 955
+value: 955
+******
+key: 201
+value: 201
+******
+key: 326
+value: 326
+******
+key: 350
+value: 350
+******
+key: 134
+value: 134
+******
+key: 162
+value: 162
+******
+key: 462
+value: 462
+******
+key: 78
+value: 78
+******
+key: 62
+value: 62
+******
+key: 818
+value: 818
+******
+key: 329
+value: 329
+******
+key: 760
+value: 760
+******
+key: 892
+value: 892
+******
+key: 520
+value: 520
+******
+key: 478
+value: 478
+******
+key: 993
+value: 993
+******
+key: 145
+value: 145
+******
+key: 75
+value: 75
+******
+key: 229
+value: 229
+******
+key: 889
+value: 889
+******
+key: 57
+value: 57
+******
+key: 270
+value: 270
+******
+key: 195
+value: 195
+******
+key: 560
+value: 560
+******
+key: 21
+value: 21
+******
+key: 632
+value: 632
+******
+key: 520
+value: 520
+******
+key: 669
+value: 669
+******
+key: 651
+value: 651
+******
+key: 471
+value: 471
+******
+key: 530
+value: 530
+******
+key: 607
+value: 607
+******
+key: 390
+value: 390
+******
+key: 574
+value: 574
+******
+key: 675
+value: 675
+******
+key: 242
+value: 242
+******
+key: 454
+value: 454
+******
+key: 856
+value: 856
+******
+key: 320
+value: 320
+******
+key: 516
+value: 516
+******
+key: 393
+value: 393
+******
+key: 648
+value: 648
+******
+key: 994
+value: 994
+******
+key: 285
+value: 285
+******
+key: 886
+value: 886
+******
+key: 473
+value: 473
+******
+key: 996
+value: 996
+******
+key: 32
+value: 32
+******
+key: 266
+value: 266
+******
+key: 225
+value: 225
+******
+key: 920
+value: 920
+******
+key: 322
+value: 322
+******
+key: 494
+value: 494
+******
+key: 833
+value: 833
+******
+key: 601
+value: 601
+******
+key: 233
+value: 233
+******
+key: 465
+value: 465
+******
+key: 121
+value: 121
+******
+key: 621
+value: 621
+******
+key: 116
+value: 116
+******
+key: 310
+value: 310
+******
+key: 151
+value: 151
+******
+key: 441
+value: 441
+******
+key: 699
+value: 699
+******
+key: 443
+value: 443
+******
+key: 835
+value: 835
+******
+key: 660
+value: 660
+******
+key: 897
+value: 897
+******
+key: 691
+value: 691
+******
+key: 979
+value: 979
+******
+key: 132
+value: 132
+******
+key: 802
+value: 802
+******
+key: 346
+value: 346
+
