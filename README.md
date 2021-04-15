@@ -1,6 +1,6 @@
 # Linear Hash in NVM
 
-#### [仓库地址](https://github.com/Monaco12138/LinearHashInNvm/edit/main/README.md)  
+#### [仓库地址](https://github.com/Monaco12138/LinearHashInNvm)  
 #### 0.实验环境  
 ubuntu20.0 , 虚拟机使用VM_Ware_Player
 ### 1.根据[Intel的教程](https://software.intel.com/content/www/us/en/develop/articles/how-to-emulate-persistent-memory-on-an-intel-architecture-server.html)，利用普通内存模拟NVM环境并测试是否配置正确
