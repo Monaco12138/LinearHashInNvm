@@ -1,8 +1,6 @@
 # 数据库实验报告    
-#### 小组成员：柴百里_18341004 王圣汐_18341034 张爽_18341047
-#### username: Monaco12138   smell_sx      iridescent-star
 
-#### [仓库地址](https://github.com/smellsx/-.git)  
+#### [仓库地址](https://github.com/Monaco12138/LinearHashInNvm/edit/main/README.md)  
 #### 0.实验环境  
 ubuntu20.0 , 虚拟机使用VM_Ware_Player
 ### 1.根据[Intel的教程](https://software.intel.com/content/www/us/en/develop/articles/how-to-emulate-persistent-memory-on-an-intel-architecture-server.html)，利用普通内存模拟NVM环境并测试是否配置正确
