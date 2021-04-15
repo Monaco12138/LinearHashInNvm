@@ -1,4 +1,4 @@
-# 数据库实验报告    
+# Linear Hash in NVM
 
 #### [仓库地址](https://github.com/Monaco12138/LinearHashInNvm/edit/main/README.md)  
 #### 0.实验环境  
