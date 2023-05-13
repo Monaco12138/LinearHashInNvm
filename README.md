@@ -1,5 +1,5 @@
 # Linear Hash in NVM
-基于非易失性内存的线性哈希实现
+基于非易失性内存的线性哈希实现，包含如何搭建非易失性内存的环境及线性哈希的实现
 
 #### [仓库地址](https://github.com/Monaco12138/LinearHashInNvm)  
 #### 0.实验环境  
