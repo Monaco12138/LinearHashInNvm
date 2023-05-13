@@ -1,4 +1,5 @@
 # Linear Hash in NVM
+基于非易失性内存的线性哈希实现
 
 #### [仓库地址](https://github.com/Monaco12138/LinearHashInNvm)  
 #### 0.实验环境  
